@@ -2,12 +2,14 @@
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
 
 <title>Login</title>
 
 </head>
 <body>
-    <h2>Entrar</h2>
+    <div class='container'>
+    <h1>Entrar</h1>
 
     <form action="fazer_login.php" method="post">
         <label>Nome de usuário:</label><br>
@@ -16,10 +18,10 @@
         <label>Senha:</label><br>
         <input type="password" id="senha" name="senha" required><br><br>
 
-        <button type="submit">Entrar</button>
+        <button type="submit" class='form-submit-btn'>Entrar</button>
     </form>
-
-    <br><a href="index.php">Voltar</a>
+    <br><a href="index.php" class='form-voltar-btn'>⭠</a>
+</div>
 <?php
 if (isset($_GET['erro'])) {
     $codigo_erro = $_GET['erro'];

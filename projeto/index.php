@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
 <?php
 
 require_once 'conexao.php';
@@ -13,12 +14,20 @@ require_once 'conexao.php';
 
 
 <body>
+<div class="container">
+    <img src="https://freesvg.org/img/Anonymous_target_with_arrow.png" class="logo">
     <h1>Bem vindo ao site Ritmo Proprio</h1>
-  <p>Já tem uma conta?</p>  <a href="login.php">Login</a> 
 
 
-   <p>Não tem uma conta?</p> <a href="cadastro.php">Cadastre-se aqui</a>
+<a href="login.php" class="lobby-btn" >Login</a> 
+
+
+<a href="cadastro.php" class="lobby-btn">Cadastre-se aqui</a>
+</div>
+
 </body>
+
+
 <?php 
 
         if (isset($status_conexao)) {
