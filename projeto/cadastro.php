@@ -2,17 +2,17 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style.css">
 
     <title>Cadastro</title>
 
 </head>
-<body>
+<body class='centralizar'>
     <div class='container'>
     <h2>Cadastre-se</h2>
 
 
-    <form action="fazer_cadastro.php" method="POST">
+    <form action="actions/fazer_cadastro.php" method="POST">
 
 
     <label>Nome de Usuário

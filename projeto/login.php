@@ -2,16 +2,16 @@
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="assets/style.css">
 
 <title>Login</title>
 
 </head>
-<body>
+<body class='centralizar'>
     <div class='container'>
     <h1>Entrar</h1>
 
-    <form action="fazer_login.php" method="post">
+    <form action="actions/fazer_login.php" method="post">
         <label>Nome de usuário:</label><br>
         <input type="text" id="username" name="username" required><br><br>
 

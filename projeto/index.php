@@ -2,10 +2,10 @@
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="assets/style.css">
 <?php
 
-require_once 'conexao.php';
+require_once 'config/conexao.php';
 
 ?>
 
@@ -13,7 +13,7 @@ require_once 'conexao.php';
 </head>
 
 
-<body>
+<body class='centralizar'>
 <div class="container">
     <img src="https://freesvg.org/img/Anonymous_target_with_arrow.png" class="logo">
     <h1>Bem vindo ao site Ritmo Proprio</h1>
