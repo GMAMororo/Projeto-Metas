@@ -1,0 +1,135 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    
+    background-image: url('https://robsoncamargo.com.br/files/thumbs/blog_0511-metas-smart-800x333.png?v=1639600606');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+.container {
+    background: rgb(165, 84, 138);
+    opacity: 0.9;
+    padding: 40px 20px;
+    border: 2px solid black; 
+    box-shadow: 
+    2px 2px 4px rgba(0, 0, 0, 0.8), 
+    -2px -2px 4px rgba(0, 0, 0, 0.8);
+    width: 350px;
+    text-align: center; 
+    font-size: 1.2em;
+    border-radius: 12px;
+}
+
+
+.questao {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    color: black;
+    margin: 20px 0 10px 0;
+}
+
+.logo {
+
+    width: 180px; 
+    height: auto; 
+    
+
+    margin-bottom: 20px; 
+    
+
+    display: block; 
+    
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lobby-btn {
+    display: block;
+    width: 90%; 
+    margin: 0 auto 20px auto; 
+    padding: 15px 0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    border-radius: 15px; 
+    background-color: #7c4dff; 
+    
+    color: rgb(255, 255, 255);
+}
+
+.texto {
+    font-size: 1.2em; 
+    font-weight: bold; 
+}
+
+.lobby-btn:hover {
+    background-color: #5c39c8; 
+}
+
+.label-form {
+    display: block; 
+    text-align: left; 
+    font-size: 1.3em;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #444;
+}
+
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px; 
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    box-sizing: border-box; 
+    font-size: 1em;
+}
+
+
+.form-submit-btn {
+    
+    width: 100%;
+    padding: 12px 0;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: none; 
+    cursor: pointer;
+    border-radius: 8px; 
+    margin-bottom: 10px;
+    text-decoration: none;
+    background-color: #7c4dff; 
+    color: white;
+}
+
+.form-voltar-btn {
+    
+    width: 100%;
+    padding: 12px 18px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: none; 
+    cursor: pointer;
+    border-radius: 8px; 
+    margin-bottom: 10px;
+    text-decoration: none;
+    background-color: #7c4dff; 
+    color: white;
+}
+
+.form-submit-btn:hover {
+    background-color: #5c39c8; 
+}
+
+
